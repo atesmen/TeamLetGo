@@ -1,0 +1,35 @@
+body{
+    align-items: center;
+    font-weight: 400;
+}
+
+.Main_Container {
+    margin-top: 16px;
+    min-width: 60rem;
+    width: 960px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+.Main_Container_inner {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    place-content: stretch center;
+    align-items: stretch;
+
+}
+
+.Main_Container_profile {
+    padding: 16px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.Main_Container_profile_left {
+    
+}
