@@ -1,0 +1,373 @@
+img {
+    
+    outline: none;
+    border: none;
+
+}
+
+body {
+    align-items: center;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* body {
+    font-weight: 400;
+    align-items: center;
+    text-align: center; */
+}
+
+div{
+   display: block;
+   background-color: rgb(255, 255, 255);
+   width: 100%;
+}
+header {
+   position: relative;
+   box-sizing: border-box;
+   display: flex;
+   -webkit-box-align: center;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   width: 100vw;
+   min-width: 320px;
+   padding: 8px;
+   z-index: 1200;
+   box-shadow: rgb(0 10 18 / 20%) 0px 3px 8px, rgb(246 246 246 / 50%) 0px 0px 1px;
+   -webkit-box-pack: center;
+   justify-content: center;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+}
+.container{
+   padding-left: 12px;
+   padding-right: 12px;
+   box-sizing: border-box;
+   width: 100%;
+   margin: 0px auto;
+}
+.ortakisim{
+   box-sizing: border-box;
+   display: flex;
+   flex-flow: row wrap;
+   -webkit-box-pack: start;
+   place-content: stretch flex-start;
+   -webkit-box-align: center;
+   align-items: center;
+   text-align: center;
+   padding-left: 415px;
+   /* padding-right: 350px; */
+   width: 500px;
+}
+.logo{
+   box-sizing: border-box;
+   display: flex;
+   position: relative;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.logoo{
+   display: flex;
+}
+a{
+   color: rgb(255, 63, 85);
+   text-decoration: none;
+}
+path {
+   fill: rgb(254, 58, 86);
+   d: path("M 59.1145 9.05591 C 53.381 9.05591 49.3941 16.24 49.3941 21.9794 C 49.3941 22.6924 49.4615 23.3888 49.5994 24.0465 C 49.633 24.2068 49.5735 24.3714 49.4394 24.4654 C 48.8333 24.8896 48.1786 25.3054 47.4925 25.7093 C 47.202 25.8803 46.8397 25.6424 46.884 25.3078 C 46.9059 25.138 46.9314 24.9601 46.9705 24.7546 L 49.7545 9.96874 C 49.7861 9.80037 49.7111 9.62676 49.562 9.54269 C 49.1903 9.33288 48.7254 9.20785 48.2377 9.20785 C 47.5223 9.20785 46.7564 9.45982 46.1943 10.0116 C 46.0412 10.1619 45.8052 10.1786 45.6406 10.0411 C 44.8536 9.38432 43.8643 9.05591 42.5333 9.05591 C 37.896 9.05591 33.68 15.7801 33.6669 22.0246 C 33.6662 22.4764 33.7043 22.9911 33.7891 23.5295 C 33.8129 23.681 33.7553 23.8355 33.6302 23.9241 C 32.7114 24.5783 31.5507 25.0968 30.5133 25.0968 C 29.5264 25.0968 28.9187 24.4123 29.3745 22.2835 L 31.479 12.229 C 31.5186 12.0411 31.6838 11.9068 31.8755 11.9068 L 34.7924 11.9068 C 35.8419 11.9068 36.4387 11.1204 36.4206 10.0871 C 36.4168 9.8711 36.2318 9.70201 36.0158 9.70201 L 32.5407 9.70201 C 32.283 9.70201 32.0908 9.46458 32.1446 9.21214 L 33.1099 4.66989 C 33.1482 4.4908 33.0637 4.30528 32.8998 4.22384 C 32.4754 4.01236 31.9439 3.88638 31.3869 3.88638 C 30.0199 3.88638 28.5767 4.53224 28.1971 6.28098 L 27.516 9.38361 C 27.4752 9.5696 27.3107 9.70201 27.1204 9.70201 L 26.7136 9.70201 C 25.6636 9.70201 25.0668 10.4881 25.0847 11.5212 C 25.0885 11.7372 25.274 11.9068 25.4898 11.9068 L 26.491 11.9068 C 26.7482 11.9068 26.9401 12.1438 26.8868 12.3962 L 24.9256 21.6743 C 24.9115 21.7424 24.8808 21.8058 24.8353 21.8584 C 23.1473 23.8203 20.4174 25.4004 18.0023 25.4004 C 16.4234 25.4004 15.2872 24.7134 14.9376 22.8822 C 14.9047 22.71 14.983 22.5345 15.1345 22.4474 C 22.0547 18.4612 23.5781 15.9713 23.7058 12.7051 C 23.7725 10.9947 23.0182 9.05591 19.7322 9.05591 C 13.7754 9.05591 10.5237 16.9623 10.3305 21.9039 C 10.307 22.5105 10.332 23.0735 10.3994 23.5945 C 10.4203 23.7555 10.3494 23.9148 10.2098 23.9975 C 9.13503 24.631 7.92165 25.0208 6.92404 25.0208 C 5.59492 25.0208 4.55349 24.2602 4.81974 22.2835 C 4.85522 21.8555 4.92429 21.3933 4.99573 20.9611 C 5.00478 20.9051 5.0255 20.8529 5.05646 20.8055 C 9.93259 13.3438 13.8304 6.27765 13.8304 3.32196 C 13.8304 1.34531 12.4422 0 10.6578 0 C 5.68375 0 1.81999 9.32145 0.0731599 23.0823 C -0.420526 27.073 1.64614 28.7079 4.3039 28.7079 C 6.40106 28.7079 8.8802 27.7793 10.8152 26.289 C 10.9976 26.1484 11.2612 26.197 11.3898 26.3885 C 12.4477 27.9627 14.1967 28.7079 16.2029 28.7079 C 18.762 28.7079 21.4312 27.5457 23.7139 25.4228 C 23.963 25.1911 24.3712 25.344 24.395 25.6836 C 24.5491 27.8843 25.842 28.7079 27.5895 28.7079 C 29.7334 28.7079 32.1177 27.4652 33.8829 25.8686 C 34.0868 25.6845 34.4049 25.7536 34.5216 26.0027 C 35.222 27.4997 36.4049 28.7079 38.2546 28.7079 C 39.5914 28.7079 40.8752 27.9124 42.0093 26.6474 C 42.2887 26.3356 42.7983 26.595 42.7066 27.0036 C 42.6399 27.2997 42.5733 27.5933 42.5011 27.8919 C 42.474 28.0044 42.4016 28.0996 42.2996 28.1539 C 39.4006 29.7009 33.9158 32.3301 33.9158 36.689 C 33.9158 39.0257 35.85 41.0941 38.3275 41.0941 C 43.8588 41.0941 44.7883 35.4656 46.2808 28.4799 C 46.3058 28.3644 46.3811 28.2647 46.4851 28.2085 C 47.7278 27.5381 48.9083 26.7574 49.8252 26.0868 C 50.0181 25.9458 50.2874 26.0034 50.4084 26.2092 C 51.2924 27.7131 52.7806 28.7079 54.9757 28.7079 C 60.937 28.7079 64.9999 21.5233 64.9999 15.8601 C 64.9999 12.1347 63.2533 9.05591 59.1145 9.05591 Z M 10.9504 2.50844 C 11.3679 2.50844 11.704 2.94164 11.704 3.58798 C 11.704 4.71609 9.52392 9.7525 6.74638 15.1366 C 6.5299 15.556 5.89213 15.33 5.98858 14.8677 C 7.41915 8.01186 9.83685 2.50844 10.9504 2.50844 Z M 19.8497 12.0204 C 20.5755 12.0204 20.887 12.7737 20.8587 13.5029 C 20.7663 15.8725 18.7494 18.2766 15.5696 20.47 C 15.2812 20.6691 14.8918 20.4321 14.9371 20.0847 C 15.3196 17.133 16.6227 12.0204 19.8497 12.0204 Z M 37.9088 37.7111 C 37.1256 37.7111 36.1453 37.1203 36.148 35.9245 C 36.152 33.9376 38.193 32.5042 41.1134 30.9488 C 41.4251 30.7829 41.7869 31.0701 41.6962 31.4118 C 40.5923 35.5837 39.7359 37.7111 37.9088 37.7111 Z M 43.4211 22.3147 C 43.4111 22.3697 43.3901 22.4223 43.3594 22.4693 C 42.4547 23.8377 41.0803 24.7927 40.031 24.7927 C 38.9967 24.7927 37.8 23.7129 37.8041 21.8124 C 37.8117 18.2666 39.6916 11.9068 43.7283 11.9068 C 44.1255 11.9068 44.5225 11.9547 44.9524 12.0885 C 45.1489 12.1495 45.2698 12.3498 45.2322 12.552 L 43.4211 22.3147 Z M 56.7223 25.4004 C 55.3934 25.4004 54.2543 24.1085 54.2543 20.7632 C 54.2543 17.0385 56.4944 11.9447 59.9499 11.9447 C 61.5067 11.9447 62.1521 13.5029 62.1521 15.5558 C 62.1521 19.5467 59.722 25.4004 56.7223 25.4004 Z");
+}
+
+.arama{
+   box-sizing: border-box;
+   display: flex;
+   height: 30px;
+   width: 500px;
+   padding-left: 9px;
+}
+.buttonthing{
+   box-sizing: border-box;
+   display: flex;
+   padding-left: 5px;
+}
+.buton{
+   box-sizing: border-box;
+   display: flex;
+   border: none;
+   border-radius: 44%;
+   background-color: red;
+   padding: 15px 30px 15px 30px;
+   text-align: center;
+   color: white;
+   transition-duration: 0.4s;
+   cursor: pointer;
+   }
+.buton:hover{
+   background-color: darkred;
+   color: white;
+}
+.fa-message{
+   display: flex;
+   position: relative;
+   padding-left: 25px;
+   padding-top: 15px;
+}
+.fa-bell{
+   display: flex;
+   position: relative;
+   padding-left: 15px;
+   padding-top: 15px;
+}
+.isim{
+   padding-left: 15px;
+   box-sizing: border-box;
+   appearance: none;
+   border: none;
+   cursor: pointer;
+   outline: none;
+   text-decoration: none;
+   user-select: none;
+   padding: 0px;
+   margin: 0px;
+   white-space: nowrap;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   text-overflow: ellipsis;
+   max-width: 100%;
+   min-height: 1rem;
+   position: relative;
+   -webkit-box-align: center;
+   place-items: center;
+   -webkit-box-pack: center;
+   justify-content: center;
+   text-align: center;
+   flex: 0 0 auto;
+   font-size: 1em;
+   overflow: initial;
+   background: transparent;
+   width: 43px;
+   height: 43px;
+   border-radius: 43px;
+   color: rgb(189, 189, 189);
+   box-shadow: none;
+}
+.isim:hover{
+   background-color: darkgray;
+   color: white;
+}
+.adress {
+    padding-left: 9%;
+    line-height: 26px;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(117, 117, 117);
+    display: inline-block;
+    
+    
+}
+
+
+.pics {
+display: flex;
+/* padding-left: 5%;
+padding-right: 5%; */
+max-width : 1380px;
+margin: auto;
+margin: 0 3% 0 3%;
+padding-left: 100px;
+padding-right: 100px;
+
+}
+
+.pics img {
+    border-radius: 15px;
+}
+
+.pics_left {
+    padding-right: 5px;
+    
+    
+}
+.pics_right{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+    
+}
+
+.pics_right img {
+    width: 33%;
+    height: 254px;
+    
+}
+
+.price {
+    /* padding-left: 9%; */
+    
+
+}
+
+h1 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.price p {
+    font-size: 18px;
+}
+
+.boxes {
+    display: flex;
+    /* padding-left: 150px; */
+}
+
+.box {
+    width: 75px;
+    background-color: grey;
+    border-radius: 25px;
+    text-align: center;
+    margin: 3px;
+
+}
+
+.box_features {
+    width: 650px;
+    height: 80px;
+    border: 5px solid grey;
+    margin: 50px 0 50px 0;
+    display: flex;
+    
+}
+
+.feature1 {
+    margin: 15px;
+    text-align: center;
+    
+}
+ 
+
+
+.description {
+    /* padding-left: 160px; */
+    font-size: 20px;
+    line-height: 2.2;
+    
+
+}
+
+.location_map {
+    /* padding-left: 160px; */
+    width: 900px;
+    height: 250px;
+}
+
+h3 {
+    font-size: 22px;
+    /* padding-left: 160px; */
+}
+
+.share_links {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(97, 97, 97);
+    margin-top: 40px;
+    /* padding-left: 160px; */
+}
+
+.social_media {
+    /* padding-left: 160px; */
+    display: flex;
+}
+
+.social_icons {
+    margin: 8px;
+}
+
+section {
+    width: 65%;
+    padding-left: 153px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_pic {
+    display: flex;
+}
+
+.star {
+    padding-top: 60px;
+}
+
+.Main_Container {
+    margin-top: 16px;
+    min-width: 60rem;
+    width: 960px;
+    padding-left: 1300px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    margin-top: -3100px;
+}
+.Main_Container_inner {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    place-content: stretch center;
+    align-items: stretch;
+}
+.Main_Container_profile {
+    padding: 85px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.Main_Container_profile_left {
+    display: flex;
+    align-items: center;
+}
+.Main_Container_profile_left_pic {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 10px;
+}
+.Main_Container_profile_left_pic img {
+    height: 88px;
+    width: 88px;
+    border-radius: 50%;
+}
+.Main_Container_profile_left_name {
+    margin: 0px 33px -46px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Main_Container_profile_left_name_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 40%;
+    justify-content: center;
+    margin-top: -37px;
+    margin-left: 97px;
+}
+.Main_Container_profile_left_name_star {
+    display: flex;
+    margin-left: 90px;
+    margin-top: -25px;
+    z-index: 1;
+}
+.Main_Container_profile_left_name_location {
+    /* margin-top: 4px;  */
+    font-weight: normal;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: -10px;
+}
