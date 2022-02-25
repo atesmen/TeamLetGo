@@ -1,6 +1,7 @@
 body{
     align-items: center;
     font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
  /* Header */
 div{
@@ -15,7 +16,7 @@ header {
     -webkit-box-align: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    width: 100vw;
+    /* width: 100vw;  */
     min-width: 320px;
     padding: 8px;
     z-index: 1200;
@@ -298,6 +299,9 @@ path {
     box-sizing: border-box;
     place-content: stretch flex-start;
     align-items: stretch;
+    width: 910px;
+    margin-left: 310px;
+    justify-content: space-between;
 }
 .Ad_container {
     display: block;
@@ -313,11 +317,92 @@ path {
     background-color: white;
     display: flex;
     flex-direction: column;
+    border-left: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
 }
 .Ad_container_inner img {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     border-radius: 8px;
 }
+.Ad_container_inner_desc {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px 12px;
+}
+.Ad_container_inner_desc_loc {
+    margin: 0px;
+    white-space: nowrap;
+    max-width: 100%;
+    color: rgb(117, 117, 117);
+    text-align: initial;
+    font-size: 14px;
+    margin-bottom: -13px;
+}
+.Ad_container_inner_desc_title {
+    margin: 0px;
+    white-space: nowrap;
+    max-width: 100%;
+    color: rgb(44, 44, 44);
+    text-align: initial;
+    font: bold 16px;
+    margin-bottom: -15px;
+}
+
+/* Chat */
+.Message {
+    position: fixed;
+    width: 100%;
+    height: 0px;
+    height: 0px;
+    bottom: 0px;
+    right: 16px;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+.Message_container {
+    display: flex;
+    flex-direction: column;
+    width: 208px;
+    height: 400px;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: rgb(0 10 18 / 26%) 0px 0px 16px 0px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -48px;
+    margin-left: 4px;
+}
+.Message_container_inner {
+    display: flex;
+    height: 48px;
+    padding: 4px 8px;
+    cursor: pointer;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 8px 8px 0px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.Message_container_inner_icon {
+    box-sizing: border-box;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(189, 189, 189);
+}
+.Message_container_inner_text {
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(44, 44, 44);
+    margin-left: 8px;
+}
+
 
 
