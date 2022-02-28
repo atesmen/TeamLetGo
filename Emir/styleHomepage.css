@@ -403,6 +403,7 @@ h4{
     width: 100px;
     height: 100px;
     display: inline-block;
+    z-index: 10;
 }
 
 .audi{
@@ -515,12 +516,20 @@ li{
     padding-right: 150px;
     
 }
+<<<<<<< Updated upstream
 .cizgi{
     background-color: rgb(255, 63, 85);
     margin-top: 31px;
     border-top: 1px solid rgb(255, 255, 255);
 }
+=======
+.isim a{
+    height: 50%;
+    width: 100%;
+    display: inline-block;
+>>>>>>> Stashed changes
 
+}
 
 
 
