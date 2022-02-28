@@ -133,6 +133,13 @@ path {
     color: rgb(189, 189, 189);
     box-shadow: none;
 }
+.isim a{
+    height: 50%;
+    width: 100%;
+    display: inline-block;
+    color: white;
+
+}
 .isim:hover{
     background-color: darkgray;
     color: white;
