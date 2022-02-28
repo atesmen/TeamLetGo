@@ -145,14 +145,21 @@ path {
     width: 43px;
     height: 43px;
     border-radius: 43px;
-    color: rgb(189, 189, 189);
+    color: lightgray;
     box-shadow: none;
     z-index: 100;
 
 }
 .isim:hover{ 
     background-color: darkgray;
-    color: white;
+    color: lightgray;
+}
+.isim a{
+    height: 50%;
+    width: 100%;
+    display: inline-block;
+    color: lightgray;
+}
 }
 .foti{
     display: flex;
