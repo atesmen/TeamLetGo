@@ -149,7 +149,7 @@ path {
     box-shadow: none;
 
 }
-.isim:hover{
+.isim:hover{ 
     background-color: darkgray;
     color: white;
 }
