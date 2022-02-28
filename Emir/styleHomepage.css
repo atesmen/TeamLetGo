@@ -467,11 +467,13 @@ h6{
     display: flex;
 }
 .container5{
-    background-color: rgb(255, 63, 85);
-    color: white;
+    padding-right: 350px;
+    padding-left: 100px;
     box-sizing: border-box;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 0px auto;
+    max-width: 1024px;
+    background-color: rgb(255, 63, 85);
+    
 
 }
 ul{
@@ -487,36 +489,36 @@ li{
     margin-bottom: 8px;
 }
 .first{
-    display: flex;
-    align-items: flex-start;
-    padding-bottom: 30px;
+    grid-template-areas: "First1.First2.First3";
+    display: grid;
     background-color: rgb(255, 63, 85);
-    flex-direction: row;
+    
 }
-.first1{
-    background-color: rgb(255, 63, 85);
-    box-sizing: border-box;
+ .first1{
+     background-color: rgb(255, 63, 85); 
+    /* box-sizing: border-box;
     max-width: 50%;
     display: block;
-    align-self: flex-start;
+    align-self: flex-start; */ 
     
 }
 .first2{
     background-color: rgb(255, 63, 85);
-    box-sizing: border-box;
-    max-width: 50%;
-    display: block;
-    align-self: flex-start;
+    padding-top: 10px;
     
 
 }
 .first3{
+    padding-top: 20px;
+    display: flex;
     background-color: rgb(255, 63, 85);
-    box-sizing: border-box;
-    max-width: 50%;
-    display: block;
-    align-self: flex-start;
+    padding-right: 150px;
     
+}
+.cizgi{
+    background-color: rgb(255, 63, 85);
+    margin-top: 31px;
+    border-top: 1px solid rgb(255, 255, 255);
 }
 
 
